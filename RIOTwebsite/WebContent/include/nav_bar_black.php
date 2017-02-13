@@ -135,7 +135,7 @@
 
 							</ul></li>
 
-						<li class="dropdown "><a href="publication.php"
+						<li class="dropdown "><a href="publications.php"
 							class="dropdown-toggle" data-toggle="dropdown">PUBLICATIONS <i
 								class="fa fa-angle-down"></i></a>
 							<ul class="dropdown-menu" role="menu">
