@@ -2,28 +2,14 @@
 <html lang="en">
 
 <head>
-	<title>Robotics and Internet of Things IoT Unit - Research Area</title>
+	<title>Robotics and Internet of Things IoT Unit - People</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Responsive Website Template">
 	<meta name="author" content="The Develovers">
-	<!-- CORE CSS -->
-	<link href="theme/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="theme/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="theme/assets/css/elegant-icons.css" rel="stylesheet" type="text/css">
-	<!-- THEME CSS -->
-	<link href="theme/assets/css/main.css" rel="stylesheet" type="text/css">
-	<link href="theme/assets/css/my-custom-styles.css" rel="stylesheet" type="text/css">
-	
-	<!-- GOOGLE FONTS -->
-	<link href='https://fonts.googleapis.com/css?family=Raleway:700,400,400italic,500' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,300,300italic' rel='stylesheet' type='text/css'>
-	<!-- FAVICONS -->
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="theme/assets/ico/bravana144.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="theme/assets/ico/bravana114.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="theme/assets/ico/bravana72.png">
-	<link rel="apple-touch-icon-precomposed" href="theme/assets/ico/bravana57.png">
-	<link rel="shortcut icon" href="theme/assets/ico/favicon.ico">
+<?php
+include_once 'headers_links.php';
+?>
 </head>
 
 <body>
@@ -132,7 +118,7 @@
 							data-toggle="dropdown">PEOPLE <i class="fa fa-angle-down"></i></a>
 							<ul class="dropdown-menu" role="menu">
 								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">Faculity</a></li>
+									data-toggle="dropdown">Faculty</a></li>
 								<li class="dropdown "><a href="#" class="dropdown-toggle"
 									data-toggle="dropdown">Postdoctoral Fellows </a></li>
 								<li class="dropdown "><a href="#" class="dropdown-toggle"
@@ -192,7 +178,7 @@
 		<!-- PAGE HEADER DEFAULT -->
 		<div class="page-header">
 			<div class="container">
-				<h1 class="page-title pull-left">Research</h1>
+				<h1 class="page-title pull-left">People</h1>
 				<ol class="breadcrumb link-accent">
 					<li><a href="index.html">Home</a></li>
 
@@ -206,13 +192,91 @@
 			<div class="container">
 			<p>  </p>
 			
-				<h2 class="section-heading">RESEARCH AREA</h2>
+				<!-- TEAM -->
+		<section>
+			<div class="container">
+				<h2 class="section-heading">Our Team</h2>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="team-member">
+							<img src="images/researcher.png"  class="img-responsive" alt="Person">
+							<div class="member-info">
+								<h3 class="name">Dr. Anis Koubaa</h3>
+								<span class="title">Director</span>
+								<p class="short-bio">Dramatically harness 2.0 products and leveraged sources. Dramatically drive intermandated expertise rather than clicks-and-mortar benefits.</p>
+								<ul class="list-inline social-icons social-icons-small">
+									<li><a href="#" class="facebook-bg-hover"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#" class="dribbble-bg-hover"><i class="fa fa-dribbble"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/anis-koubaa-84aa4344/" class="linkedin-bg-hover"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#" class="twitter-bg-hover"><i class="fa fa-twitter"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="team-member">
+							<img src="images/researcher.png"  class="img-responsive" alt="Person">
+							<div class="member-info">
+								<h3 class="name">Dr. Basit Qureshi</h3>
+								<span class="title">Senior Researcher</span>
+								<p class="short-bio">Dramatically harness 2.0 products and leveraged sources. Dramatically drive intermandated expertise rather than clicks-and-mortar benefits.</p>
+								<ul class="list-inline social-icons social-icons-small social-icons-square">
+									<li><a href="#" class="facebook-bg-hover"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#" class="dribbble-bg-hover"><i class="fa fa-dribbble"></i></a></li>
+									<li><a href="#" class="linkedin-bg-hover"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#" class="twitter-bg-hover"><i class="fa fa-twitter"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="team-member">
+							<img src="images/researcher.png" class="img-responsive" alt="Person">
+							<div class="member-info">
+								<h3 class="name">Yasir Javed</h3>
+								<span class="title">Assistant Researcher</span>
+								<p class="short-bio">Dramatically harness 2.0 products and leveraged sources. Dramatically drive intermandated expertise rather than clicks-and-mortar benefits.</p>
+								<ul class="list-inline social-icons social-icons-small social-icons-square">
+									<li><a href="#" class="facebook-bg-hover"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#" class="dribbble-bg-hover"><i class="fa fa-dribbble"></i></a></li>
+									<li><a href="#" class="linkedin-bg-hover"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#" class="twitter-bg-hover"><i class="fa fa-twitter"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+				</div>
 				
-				<ul>
-				<li> AREA 1 </li>
-				<li> AREA 2 </li>
+				<br><br>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="team-member">
+							<img src="images/researcher.png"  class="img-responsive" alt="Person">
+							<div class="member-info">
+								<h3 class="name">Ms. Maram Alajlan</h3>
+								<span class="title">Assistant Researcher</span>
+								<p class="short-bio">Dramatically harness 2.0 products and leveraged sources. Dramatically drive intermandated expertise rather than clicks-and-mortar benefits.</p>
+								<ul class="list-inline social-icons social-icons-small">
+									<li><a href="#" class="facebook-bg-hover"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#" class="dribbble-bg-hover"><i class="fa fa-dribbble"></i></a></li>
+									<li><a href="#" class="linkedin-bg-hover"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#" class="twitter-bg-hover"><i class="fa fa-twitter"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					
+				</div>
 				
-				</ul>
+				
+				
+			</div>
+		</section>
+		<!-- END TEAM -->
+				
+
 				
 				
 			</div>
