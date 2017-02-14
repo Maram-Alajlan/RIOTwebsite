@@ -243,71 +243,9 @@
 		</div>
 		<!-- END PAGE CONTENT -->
 		<!-- FOOTER -->
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="row">
-							<div class="col-sm-6">
-								<h4 class="footer-heading footer-heading-simple">GENERAL</h4>
-								<ul class="list-unstyled link-list">
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Who we are</a></li>
-									<li><a href="#">Career</a></li>
-									<li><a href="#">Terms</a></li>
-									<li><a href="#">Privacy Policy</a></li>
-								</ul>
-							</div>
-							<div class="col-sm-6">
-								<h4 class="footer-heading footer-heading-simple">BUYING GUIDES</h4>
-								<ul class="list-unstyled link-list">
-									<li><a href="#">How to buy</a></li>
-									<li><a href="#">Product Guide</a></li>
-									<li><a href="#">License</a></li>
-									<li><a href="#">Payment</a></li>
-									<li><a href="#">Support</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-8">
-						<div class="row">
-							<div class="col-md-6">
-								<h4 class="footer-heading footer-heading-simple">CONTACT US</h4>
-								<address>
-									<i class="icon icon_pin_alt ico-styled text-primary"></i> 1234
-									North Main Street New York, NY 22222 <br> <br> <i
-										class="icon icon_phone ico-styled text-primary"></i> <abbr
-										title="Phone">P:</abbr> (1800) 765 - 4321
-								</address>
-								<address>
-									<i class="icon icon_mail_alt ico-styled text-primary"></i> <a
-										href="mailto:email@yourdomain.com">email@yourdomain.com</a>
-								</address>
-							</div>
-							<div class="col-md-6">
-								<h4 class="footer-heading footer-heading-simple">NEWSLETTER</h4>
-								<p>Get the latest update from us by subscribing to our
-									newsletter.</p>
-								<form class="newsletter-form" method="post">
-									<div class="input-group input-group-lg">
-										<input type="email" class="form-control" name="email"
-											placeholder="youremail@domain.com"> <span
-											class="input-group-btn"><button class="btn btn-primary"
-												type="button">
-												<i class="fa fa-spinner fa-spin"></i><span>SUBSCRIBE</span>
-											</button> </span>
-									</div>
-									<div class="alert"></div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<p class="copyright-text text-center margin-top-30 no-margin-bottom">&copy;2016
-				The Develovers. All Rights Reserved.</p>
-		</footer>
+<?php
+    include_once 'include/footer.php';
+    ?>
 		<!-- END FOOTER -->
 		<div class="back-to-top">
 			<a href="#top"><i class="fa fa-chevron-up"></i> </a>
