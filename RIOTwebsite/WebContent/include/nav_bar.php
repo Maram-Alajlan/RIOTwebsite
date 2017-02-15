@@ -120,16 +120,7 @@
 
 						<li class="dropdown "><a href="facilities.php" class="dropdown-toggle"
 							data-toggle="dropdown">FACILITIES <i class="fa fa-angle-down"></i></a>
-							<ul class="dropdown-menu" role="menu">
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">FACILITY 1</a></li>
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">FACILITY 2 </a></li>
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">FACILITY 3 </a></li>
-
-
-							</ul></li>
+							</li>
 
 						<li class="dropdown "><a href="publications.php" class="dropdown-toggle"
 							data-toggle="dropdown">PUBLICATIONS <i

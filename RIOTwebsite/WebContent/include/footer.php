@@ -32,14 +32,14 @@ GUIDES</h4>
 <div class="col-md-6">
 <h4 class="footer-heading footer-heading-simple">CONTACT US</h4>
 <address>
-<i class="icon icon_pin_alt ico-styled text-primary"></i> 1234
-North Main Street New York, NY 22222 <br> <br> <i
+<i class="icon icon_pin_alt ico-styled text-primary"></i> <br>Prince Sultan University <br>Center of Excellent <br>
+Robotics and Internet-of-Things Unit (RIoT) <br><br><i
 class="icon icon_phone ico-styled text-primary"></i> <abbr
-title="Phone">P:</abbr> (1800) 765 - 4321
+title="Phone">P:</abbr> +966 (11) 484 - 8851
 </address>
 <address>
 <i class="icon icon_mail_alt ico-styled text-primary"></i> <a
-href="mailto:email@yourdomain.com">email@yourdomain.com</a>
+href="mailto:riot@psu.edu.sa">riot@psu.edu.sa</a>
 </address>
 </div>
 <div class="col-md-6">

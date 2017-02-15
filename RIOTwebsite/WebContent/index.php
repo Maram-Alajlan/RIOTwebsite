@@ -8,131 +8,139 @@
 <meta name="description" content="Responsive Website Template">
 <meta name="author" content="The Develovers">
 <?php
-    include_once 'include/headers_links.php';
-    ?>
+include_once 'include/headers_links.php';
+?>
 </head>
 
 <body>
-<!-- WRAPPER -->
-<div id="wrapper">
-<?php
-    include_once 'include/nav_bar_black.php';
-    ?>
-<!-- END NAVBAR -->
-<!-- SLIDER -->
-<section id="slider-fullscreen" class="rev_slider no-padding">
-<ul>
-<li data-transition="crossfade"><img
-src="theme/assets/img/hero-unit/slide3.jpg" data-bgfit="cover"
-data-bgposition="center center" data-bgrepeat="no-repeat"
-alt="Slide">
-<div
-class="tp-caption tp-shape tp-shapewrapper slide-overlay-dark-gray"
-data-width="full" data-height="full" data-basealign="slide"
-data-transform_in="o:0;s:800;e:Power3.easeInOut;"
-data-transform_idle="o:1"
-data-transform_out="o:0;s:1500;e:Power3.easeInOut;" data-start="0">
-</div>
-<div
-class="tp-caption tp-resizeme lead-text light-text text-center"
-data-x="center" data-y="center" data-hoffset="0"
-data-voffset="-100" data-transform_in="o:0;y:-20;s:2000;"
-data-transform_idle="o:1;"
-data-transform_out="o:0;s:1500;e:Power3.easeInOut;"
-data-start="1300">
-<h1 class="heading">RIOT Organizes the First Drone Pilot
-Certificate Program</h1>
-<p class="section-lead">at Prince Sultan University, Riyadh,
-March 28-30, 2017</p>
-</div>
-<div class="tp-caption tp-resizeme" data-x="center" data-y="center"
-data-hoffset="0" data-voffset="[150, 170, 180, 200]"
-data-transform_in="o:0;y:50;s:2000;" data-transform_idle="o:1;"
-data-transform_out="o:0;y:0;s:1500;e:Power3.easeInOut;"
-data-start="1900">
-<a href="#" class="btn btn-primary btn-lg"><i
-class="fa fa-shopping-cart"></i> PURCHASE</a>
-</div></li>
-<li data-transition="slidingoverlaydown"><img
-src="theme/assets/img/hero-unit/slide4.jpg" data-bgfit="cover"
-data-bgposition="center center" data-bgrepeat="no-repeat"
-alt="Slide">
-<div
-class="tp-caption tp-shape tp-shapewrapper slide-overlay-dark-gray"
-data-width="full" data-height="full" data-basealign="slide"
-data-transform_in="o:0;s:1500;e:Power3.easeInOut;"
-data-transform_idle="o:1"
-data-transform_out="o:0;s:1000;e:Power3.easeInOut;" data-start="0">
-</div>
-<div class="tp-caption tp-resizeme light-text text-right"
-data-x="center" data-y="top" data-hoffset="0" data-voffset="50"
-data-transform_in="o:0;s:1500;" data-transform_idle="o:1;"
-data-transform_out="o:0;s:1500;e:Power3.easeInOut;"
-data-start="1500">
-<h2 class="heading">Ad or news 2</h2>
-</div>
+	<!-- WRAPPER -->
+	<div id="wrapper">
+	<?php
+	include_once 'include/nav_bar_black.php';
+	?>
+		<!-- END NAVBAR -->
+		<!-- SLIDER -->
+		<section id="slider-fullscreen" class="rev_slider no-padding">
+			<ul>
+				<li data-transition="crossfade"><img
+					src="theme/assets/img/hero-unit/slide3.jpg" data-bgfit="cover"
+					data-bgposition="center center" data-bgrepeat="no-repeat"
+					alt="Slide">
+					<div
+						class="tp-caption tp-shape tp-shapewrapper slide-overlay-dark-gray"
+						data-width="full" data-height="full" data-basealign="slide"
+						data-transform_in="o:0;s:800;e:Power3.easeInOut;"
+						data-transform_idle="o:1"
+						data-transform_out="o:0;s:1500;e:Power3.easeInOut;" data-start="0">
+					</div>
+					<div
+						class="tp-caption tp-resizeme lead-text light-text text-center"
+						data-x="center" data-y="center" data-hoffset="0"
+						data-voffset="-100" data-transform_in="o:0;y:-20;s:2000;"
+						data-transform_idle="o:1;"
+						data-transform_out="o:0;s:1500;e:Power3.easeInOut;"
+						data-start="1300">
+						<h1 class="heading">RIOT Organizes the First Drone Pilot
+							Certificate Program</h1>
+						<p class="section-lead">at Prince Sultan University, Riyadh, March
+							28-30, 2017</p>
+						<a href='http://www.springer.com/us/book/9783319549262'><img
+							src="images/drone-training.png" class="image-responsive center">
+						</a>
+					</div>
+					<div class="tp-caption tp-resizeme" data-x="center" data-y="center"
+						data-hoffset="0" data-voffset="[150, 170, 180, 200]"
+						data-transform_in="o:0;y:50;s:2000;" data-transform_idle="o:1;"
+						data-transform_out="o:0;y:0;s:1500;e:Power3.easeInOut;"
+						data-start="1900">
+						<a href="http://wiki.coins-lab.org/trainings/drone/index.html"
+							class="btn btn-primary btn-lg"><i class="fa fa-shopping-cart"></i>
+							REGISTER NOW</a>
+					</div></li>
+				<li data-transition="slidingoverlaydown"><img
+					src="theme/assets/img/hero-unit/slide4.jpg" data-bgfit="cover"
+					data-bgposition="center center" data-bgrepeat="no-repeat"
+					alt="Slide">
+					<div
+						class="tp-caption tp-shape tp-shapewrapper slide-overlay-dark-gray"
+						data-width="full" data-height="full" data-basealign="slide"
+						data-transform_in="o:0;s:1500;e:Power3.easeInOut;"
+						data-transform_idle="o:1"
+						data-transform_out="o:0;s:1000;e:Power3.easeInOut;" data-start="0">
+					</div>
+					<div class="tp-caption tp-resizeme light-text text-right"
+						data-x="center" data-y="top" data-hoffset="0" data-voffset="50"
+						data-transform_in="o:0;s:1500;" data-transform_idle="o:1;"
+						data-transform_out="o:0;s:1500;e:Power3.easeInOut;"
+						data-start="1500">
+						<h2>Get your copy of the book</h2>
+						<h1 class="heading">Robot Operating System (ROS): The Complete
+							Reference (Volume 2)</h1>
+						<a href='http://www.springer.com/us/book/9783319549262'><img
+							src="images/rosbook2.jpg" class="image-responsive center"> </a>
+					</div>
 
-<div class="tp-caption tp-resizeme lead-text light-text text-right"
-data-x="center" data-y="bottom" data-hoffset="0" data-voffset="90"
-data-transform_in="o:0;y:100;s:1500;" data-transform_idle="o:1;"
-data-transform_out="o:0;y:50;s:1500;e:Power3.easeInOut;"
-data-start="2500">
-<p>
-<span class="label label-red">Save $14</span> to have the most
-popular premium slider
-</p>
-</div>
-<div class="tp-caption tp-resizeme text-right" data-x="center"
-data-y="bottom" data-hoffset="0" data-voffset="10"
-data-transform_in="o:0;y:100;s:1500;" data-transform_idle="o:1;"
-data-transform_out="o:0;y:50;s:1000;e:Power3.easeInOut;"
-data-start="2800">
-<a href="#" class="btn btn-primary btn-lg"><i
-class="fa fa-shopping-cart"></i> PURCHASE</a>
-</div></li>
-<li data-transition="slidingoverlaydown"><img
-src="theme/assets/img/hero-unit/slide5.jpg" data-bgfit="cover"
-data-bgposition="center center" data-bgrepeat="no-repeat"
-alt="Slide">
-<div
-class="tp-caption tp-shape tp-shapewrapper slide-overlay-dark-gray"
-data-width="full" data-height="full" data-basealign="slide"
-data-transform_in="o:0;s:1500;e:Power3.easeInOut;"
-data-transform_idle="o:1"
-data-transform_out="o:0;s:1000;e:Power3.easeInOut;" data-start="0">
-</div>
-<div class="tp-caption tp-resizeme big-text light-text text-center"
-data-x="center" data-y="center" data-hoffset="0"
-data-voffset="-100" data-transform_in="o:0;sX:2;sY:2;s:2000;"
-data-transform_idle="o:1;"
-data-transform_out="o:0;sX:0.5;sY:0.5;s:1500;e:Power3.easeInOut;"
-data-start="1000">
-<h2 class="heading">Ad or news 3</h2>
-</div>
-<div
-class="tp-caption tp-resizeme lead-text light-text text-center"
-data-x="center" data-y="center" data-hoffset="0"
-data-voffset="-10" data-transform_in="o:0;sX:2;sY:2;s:2000;"
-data-transform_idle="o:1;"
-data-transform_out="o:0;sX:0.5;sY:0.5;s:1500;e:Power3.easeInOut;"
-data-start="1300">
-<p class="lead">text text text text text text text text text
-text</p>
-</div>
-<div class="tp-caption tp-resizeme light-text text-center"
-data-x="center" data-y="center" data-hoffset="0" data-voffset="80"
-data-transform_in="o:0;sX:2;sY:2;s:2000;"
-data-transform_idle="o:1;"
-data-transform_out="o:0;sX:0.5;sY:0.5;s:1500;e:Power3.easeInOut;"
-data-start="1600">
-<a href="#" class="btn btn-primary btn-lg"><i
-class="fa fa-rocket"></i> Read more</a>
-</div></li>
-</ul>
-</section>
-<!-- END SLIDER -->
-<!-- CONTENT SLIDER -->
-<!--
+					<div class="tp-caption tp-resizeme lead-text light-text text-right"
+						data-x="center" data-y="bottom" data-hoffset="0" data-voffset="90"
+						data-transform_in="o:0;y:100;s:1500;" data-transform_idle="o:1;"
+						data-transform_out="o:0;y:50;s:1500;e:Power3.easeInOut;"
+						data-start="2500">
+						<p>
+							<span class="label label-red">Save $14</span> to have the most
+							popular premium slider
+						</p>
+					</div>
+					<div class="tp-caption tp-resizeme text-right" data-x="center"
+						data-y="bottom" data-hoffset="0" data-voffset="10"
+						data-transform_in="o:0;y:100;s:1500;" data-transform_idle="o:1;"
+						data-transform_out="o:0;y:50;s:1000;e:Power3.easeInOut;"
+						data-start="2800">
+						<a href="http://www.springer.com/us/book/9783319549262"
+							class="btn btn-primary btn-lg"><i class="fa fa-shopping-cart"></i>
+							PURCHASE</a>
+					</div></li>
+				<li data-transition="slidingoverlaydown"><img
+					src="theme/assets/img/hero-unit/slide5.jpg" data-bgfit="cover"
+					data-bgposition="center center" data-bgrepeat="no-repeat"
+					alt="Slide">
+					<div
+						class="tp-caption tp-shape tp-shapewrapper slide-overlay-dark-gray"
+						data-width="full" data-height="full" data-basealign="slide"
+						data-transform_in="o:0;s:1500;e:Power3.easeInOut;"
+						data-transform_idle="o:1"
+						data-transform_out="o:0;s:1000;e:Power3.easeInOut;" data-start="0">
+					</div>
+					<div class="tp-caption tp-resizeme big-text light-text text-center"
+						data-x="center" data-y="center" data-hoffset="0"
+						data-voffset="-100" data-transform_in="o:0;sX:2;sY:2;s:2000;"
+						data-transform_idle="o:1;"
+						data-transform_out="o:0;sX:0.5;sY:0.5;s:1500;e:Power3.easeInOut;"
+						data-start="1000">
+						<h2 class="heading">Ad or news 3</h2>
+					</div>
+					<div
+						class="tp-caption tp-resizeme lead-text light-text text-center"
+						data-x="center" data-y="center" data-hoffset="0"
+						data-voffset="-10" data-transform_in="o:0;sX:2;sY:2;s:2000;"
+						data-transform_idle="o:1;"
+						data-transform_out="o:0;sX:0.5;sY:0.5;s:1500;e:Power3.easeInOut;"
+						data-start="1300">
+						<p class="lead">text text text text text text text text text text</p>
+					</div>
+					<div class="tp-caption tp-resizeme light-text text-center"
+						data-x="center" data-y="center" data-hoffset="0" data-voffset="80"
+						data-transform_in="o:0;sX:2;sY:2;s:2000;"
+						data-transform_idle="o:1;"
+						data-transform_out="o:0;sX:0.5;sY:0.5;s:1500;e:Power3.easeInOut;"
+						data-start="1600">
+						<a href="#" class="btn btn-primary btn-lg"><i class="fa fa-rocket"></i>
+							Read more</a>
+					</div></li>
+			</ul>
+		</section>
+		<!-- END SLIDER -->
+		<!-- CONTENT SLIDER -->
+		<!--
 <section>
 <div class="container">
 <div class="section-heading section-heading-center">
@@ -230,40 +238,82 @@ outsourcing through an expanded array of functionalities.</p>
 </div>
 </section>
 -->
-<!-- END CONTENT SLIDER -->
-<!-- FEATURES -->
-<section>
-<div class="container">
+		<!-- END CONTENT SLIDER -->
+		<!-- FEATURES -->
+		<section>
+			<div class="container">
 
-<div class="row">
-<div class="col-md-4">
-<div class="icon-info icon-info-left">
-<i class="icon icon_gift ico-styled-md text-primary"></i>
-<div class="text">
-<h2 class="title">FACILITIES</h2>
-<p>Text Text Text Text Text</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="icon-info icon-info-left">
-<i class="icon icon_heart_alt ico-styled-md text-primary"></i>
-<div class="text">
-<h2 class="title">PUBLICATIONS</h2>
-<p>Text Text Text Text Text</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="icon-info icon-info-left">
-<i class="icon icon_lightbulb ico-styled-md text-primary"></i>
-<div class="text">
-<h2 class="title">PEOPLE</h2>
-<p>Text Text Text Text Text</p>
-</div>
-</div>
-</div>
-<!--
+				<div class="row">
+					<div class="col-md-4">
+						<div class="icon-info icon-info-left">
+							<i class="icon icon_gift ico-styled-md text-primary"></i>
+							<div class="text">
+								<h2 class="title">FACILITIES</h2>
+								<div class="row">
+
+									<div class="col-lg-12">
+										<a href='#'><img src="images/lab04.jpg" width="100%"
+											class="image-responsive center"> </a>
+									</div>
+									<div class="col-lg-12">
+										<p>Full-featured Robotics and Internet-of-Things Lab</p>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-lg-12">
+									<p>Drone Virtual RIOT Lab Visit</p>
+										
+											
+											<iframe width="420" height="315"
+src="https://www.youtube.com/embed/gfl0bORdm3I?playlist=gfl0bORdm3Ik&loop=1">
+</iframe>
+											
+									</div>
+								</div>
+
+
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="icon-info icon-info-left">
+							<i class="icon icon_book_alt ico-styled-md text-primary"></i>
+							<div class="text">
+								<h2 class="title">LATEST PUBLICATIONS</h2>
+
+								<div class="publication">
+									<b><a href='http://www.springer.com/us/book/9783319549262'>Robot
+											Operating System (ROS): The Complete Reference (Volume 2)</a>
+									</b><br>Anis Koubaa (Editor) <br> <b>Springer</b>, Volume 2,
+									707 Pages, ISBN 978-3-319-54926-2, 2017 <a
+										href='http://www.springer.com/us/book/9783319549262'><img
+										src="images/rosbook2.jpg" class="image-responsive center"> </a>
+								</div>
+								<div class="publication">
+									<b><a
+										href='http://www.sciencedirect.com/science/article/pii/S1389128616302699'>Cyber-physical
+											systems clouds: A survey</a> </b><br>Rihab Chaâri, Fatma
+									Ellouze, Anis Koubâa, Basit Qureshi, Nuno Pereira, Habib
+									Youssef, Eduardo Tovar <br> <b>Computer Networks</b>, Volume
+									108, 24 October 2016, Pages 260-278, ISSN 1389-1286,
+									(Netherlands)
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="icon-info icon-info-left">
+							<i class="icon icon_lightbulb ico-styled-md text-primary"></i>
+							<div class="text">
+								<h2 class="title">LATEST NEWS</h2>
+
+							</div>
+						</div>
+					</div>
+					<!--
 <div class="col-md-4">
 <div class="icon-info icon-info-left no-margin-bottom">
 <i class="icon icon_like ico-styled-md text-primary"></i>
@@ -298,12 +348,12 @@ outsourcing through an expanded array of functionalities.</p>
 </div>
 </div>
 -->
-</div>
-</div>
-</section>
-<!-- END FEATURES -->
-<!-- SHOWCASE -->
-<!--
+				</div>
+			</div>
+		</section>
+		<!-- END FEATURES -->
+		<!-- SHOWCASE -->
+		<!--
 <section>
 <div class="container">
 <div class="section-heading section-heading-center">
@@ -394,9 +444,9 @@ class="btn btn-primary btn-sm">DETAILS</a>
 </div>
 </section>
 -->
-<!-- END SHOWCASE -->
-<!-- TESTIMONIAL -->
-<!--
+		<!-- END SHOWCASE -->
+		<!-- TESTIMONIAL -->
+		<!--
 <section>
 <div class="container">
 <div class="section-heading section-heading-center">
@@ -485,9 +535,9 @@ technologies after ethical.</p>
 </div>
 </section>
 -->
-<!-- END TESTIMONIAL -->
-<!-- CALL TO ACTION -->
-<!--
+		<!-- END TESTIMONIAL -->
+		<!-- CALL TO ACTION -->
+		<!--
 <section class="no-padding-bottom">
 <div class="cta-big">
 <div class="container">
@@ -537,43 +587,43 @@ class="fa fa-angle-right"></i></a>
 </div>
 </section>
 -->
-<!-- END CALL TO ACTION -->
-<!-- FOOTER -->
-<?php
-    include_once 'include/footer.php';
-    ?>
-<!-- END FOOTER -->
-<div class="back-to-top">
-<a href="#top"><i class="fa fa-chevron-up"></i></a>
-</div>
-</div>
-<!-- END WRAPPER -->
-<!-- JAVASCRIPT -->
-<script src="theme/assets/js/jquery-2.1.1.min.js"></script>
-<script src="theme/assets/js/bootstrap.min.js"></script>
-<script src="theme/assets/js/plugins/easing/jquery.easing.min.js"></script>
-<script
-src="theme/assets/js/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-<script
-src="theme/assets/js/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-<script src="theme/assets/js/plugins/owl-carousel/owl.carousel.min.js"></script>
-<script src="theme/assets/js/bravana.js"></script>
-<script type="text/javascript"
-src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
-<script type="text/javascript"
-src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript"
-src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script type="text/javascript"
-src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript"
-src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script type="text/javascript"
-src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-<script type="text/javascript"
-src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-<script type="text/javascript"
-src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+		<!-- END CALL TO ACTION -->
+		<!-- FOOTER -->
+		<?php
+		include_once 'include/footer.php';
+		?>
+		<!-- END FOOTER -->
+		<div class="back-to-top">
+			<a href="#top"><i class="fa fa-chevron-up"></i> </a>
+		</div>
+	</div>
+	<!-- END WRAPPER -->
+	<!-- JAVASCRIPT -->
+	<script src="theme/assets/js/jquery-2.1.1.min.js"></script>
+	<script src="theme/assets/js/bootstrap.min.js"></script>
+	<script src="theme/assets/js/plugins/easing/jquery.easing.min.js"></script>
+	<script
+		src="theme/assets/js/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script
+		src="theme/assets/js/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="theme/assets/js/plugins/owl-carousel/owl.carousel.min.js"></script>
+	<script src="theme/assets/js/bravana.js"></script>
+	<script type="text/javascript"
+		src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+	<script type="text/javascript"
+		src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript"
+		src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript"
+		src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript"
+		src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script type="text/javascript"
+		src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script type="text/javascript"
+		src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+	<script type="text/javascript"
+		src="theme/assets/js/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 
 </body>
 
