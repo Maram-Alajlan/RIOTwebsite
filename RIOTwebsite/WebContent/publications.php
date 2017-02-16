@@ -47,7 +47,7 @@
 
 				<?php
 				$sql = "SELECT * FROM publication, publication_category, publication_indexing where publication.category = publication_category.id and publication.indexing = publication_indexing.id order by publication.year, publication.month";
-
+echo $sql;
 
 				$result = $dbconn->query($sql);
 

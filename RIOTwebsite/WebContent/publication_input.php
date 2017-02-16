@@ -49,17 +49,10 @@
 
 
 						<div class="form-group">
-							<label for="pub-id" class="control-label sr-only">ID</label> <input
-								type="number" class="form-control" id="pub-id" name="id"
-								placeholder="ID*" value="<?php echo $id;?>" required>
-						</div>
-
-
-						<div class="form-group">
 							<label for="pub-title" class="control-label sr-only">Title</label>
 							<input type="text" class="form-control" id="pub-title"
 								name="title" placeholder="Title*"
-								value="<?php if(isset($title))echo $title;?>" required>
+								 required>
 						</div>
 
 
@@ -67,7 +60,7 @@
 							<label for="pub-type" class="control-label sr-only">Type</label>
 
 							<input type="number" class="form-control" id="pub-type"
-								name="type" placeholder="Type*" value="<?php echo $type;?>"
+								name="type" placeholder="Type*" "
 								required>
 
 						</div>
@@ -76,7 +69,7 @@
 							<label for="pub-year" class="control-label sr-only">Year</label>
 
 							<input type="number" class="form-control" id="pub-year"
-								name="year" placeholder="Year*" value="<?php echo $year;?>"
+								name="year" placeholder="Year*" "
 								required>
 
 						</div>
@@ -85,7 +78,7 @@
 							<label for="pub-month" class="control-label sr-only">Month</label>
 
 							<input type="number" class="form-control" id="pub-month"
-								name="month" placeholder="Month*" value="<?php echo $month;?>"
+								name="month" placeholder="Month*" "
 								required>
 
 						</div>
@@ -94,14 +87,14 @@
 							<label for="pub-pages" class="control-label sr-only">Pages</label>
 							<input type="text" class="form-control" id="pub-pages"
 								name="pages" placeholder="Pages*"
-								value="<?php if(isset($pages))echo $pages;?>" required>
+								required>
 						</div>
 
 						<div class="form-group">
 							<label for="pub-publisher" class="control-label sr-only">Publisher</label>
 							<input type="text" class="form-control" id="pub-publisher"
 								name="publisher" placeholder="Publisher*"
-								value="<?php if(isset($publisher))echo $publisher;?>" required>
+								 required>
 						</div>
 
 						<div class="form-group">
@@ -140,14 +133,14 @@
 							<label for="pub-booktitle" class="control-label sr-only">Booktitle</label>
 							<input type="text" class="form-control" id="pub-booktitle"
 								name="booktitle" placeholder="Booktitle*"
-								value="<?php if(isset($booktitle))echo $booktitle;?>" required>
+								 required>
 						</div>
 
 						<div class="form-group">
 							<label for="pub-hlink" class="control-label sr-only">Hlink</label>
 							<input type="text" class="form-control" id="pub-hlink"
 								name="hlink" placeholder="Hlink*"
-								value="<?php if(isset($hlink))echo $hlink;?>" required>
+								 required>
 						</div>
 
 
