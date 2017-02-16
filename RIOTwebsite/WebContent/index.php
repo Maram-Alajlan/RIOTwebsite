@@ -23,11 +23,11 @@ include_once 'include/headers_links.php';
 		<section id="slider-fullscreen" class="rev_slider no-padding">
 			<ul>
 				<li data-transition="crossfade"><img
-					src="theme/assets/img/hero-unit/slide3.jpg" data-bgfit="cover"
+					src="images/riyadh.jpg" data-bgfit="cover"
 					data-bgposition="center center" data-bgrepeat="no-repeat"
 					alt="Slide">
 					<div
-						class="tp-caption tp-shape tp-shapewrapper slide-overlay-dark-gray"
+						class="tp-caption tp-shape tp-shapewrapper "
 						data-width="full" data-height="full" data-basealign="slide"
 						data-transform_in="o:0;s:800;e:Power3.easeInOut;"
 						data-transform_idle="o:1"
