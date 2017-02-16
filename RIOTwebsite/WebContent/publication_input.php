@@ -45,92 +45,115 @@
 				<h2 class="section-heading">Enter new publication</h2>
 
 					<div class="col-md-8">
-						<form method="post" id="contact-form" class="form-horizontal form-minimal margin-top-30" novalidate>
-						
-								
-									<div class="form-group">
-										<label for="pub-id" class="control-label sr-only">ID</label>
-										<input type="number" class="form-control" id="pub-id" name="id" placeholder="ID*" value="<?php echo $id;?>" required>
-									</div>
-								
-								
-									<div class="form-group">
-										<label for="pub-title" class="control-label sr-only">Title</label>
-										<input type="text" class="form-control" id="pub-title" name="title" placeholder="Title*" value="<?php if(isset($title))echo $title;?>" required>
-									</div>
-								
-							
-							<div class="form-group">
-								<label for="pub-type" class="control-label sr-only">Type</label>
-								
-									<input type="number" class="form-control" id="pub-type" name="type" placeholder="Type*" value="<?php echo $type;?>" required>
-								
-							</div>
-							
-							<div class="form-group">
-								<label for="pub-year" class="control-label sr-only">Year</label>
-								
-									<input type="number" class="form-control" id="pub-year" name="year" placeholder="Year*" value="<?php echo $year;?>" required>
-								
-							</div>
-							
-							<div class="form-group">
-								<label for="pub-month" class="control-label sr-only">Month</label>
-								
-									<input type="number" class="form-control" id="pub-month" name="month" placeholder="Month*" value="<?php echo $month;?>" required>
-								
-							</div>
-							
-							<div class="form-group">
-										<label for="pub-pages" class="control-label sr-only">Pages</label>
-										<input type="text" class="form-control" id="pub-pages" name="pages" placeholder="Pages*"  value="<?php if(isset($pages))echo $pages;?>" required>
-									</div>
-									
-									<div class="form-group">
-										<label for="pub-publisher" class="control-label sr-only">Publisher</label>
-										<input type="text" class="form-control" id="pub-publisher" name="publisher" placeholder="Publisher*"  value="<?php if(isset($publisher))echo $publisher;?>" required>
-									</div>
-							
-							<div class="form-group">
-								<label for="pub-issue" class="control-label sr-only">Issue</label>
-								
-									<input type="number" class="form-control" id="pub-issue" name="issue" placeholder="Issue*" value="<?php echo $issue;?>" required>
-								
-							</div>
-							
-							<div class="form-group">
-								<label for="pub-volume" class="control-label sr-only">Volume</label>
-								
-									<input type="number" class="form-control" id="pub-volume" name="issue" placeholder="Volume*" value="<?php echo $volume;?>" required>							
-							</div>
-							
-							<div class="form-group">
-								<label for="pub-category" class="control-label sr-only">Category</label>
-								
-									<input type="number" class="form-control" id="pub-category" name="category" placeholder="Category*"  value="<?php echo $category;?>" required>
-								
-							</div>
-							
-							<div class="form-group">
-								<label for="pub-indexing" class="control-label sr-only">Indexing</label>
-								
-									<input type="number" class="form-control" id="pub-indexing" name="issue" placeholder="Indexing*" value="<?php echo $indexing;?>" required>							
-							</div>
-							
-							<div class="form-group">
-										<label for="pub-booktitle" class="control-label sr-only">Booktitle</label>
-										<input type="text" class="form-control" id="pub-booktitle" name="booktitle" placeholder="Booktitle*" value="<?php if(isset($booktitle))echo $booktitle;?>" required>
-									</div>
-									
-									<div class="form-group">
-										<label for="pub-hlink" class="control-label sr-only">Hlink</label>
-										<input type="text" class="form-control" id="pub-hlink" name="hlink" placeholder="Hlink*" value="<?php if(isset($hlink))echo $hlink;?>" required>
-									</div>
-							
+						<form method="post" action="publication_insert.php" id="contact-form" class="form-horizontal form-minimal margin-top-30" novalidate>
 
-							<div class="form-group">
+
+						<div class="form-group">
+							<label for="pub-id" class="control-label sr-only">ID</label> <input
+								type="number" class="form-control" id="pub-id" name="id"
+								placeholder="ID*" value="<?php echo $id;?>" required>
+						</div>
+
+
+						<div class="form-group">
+							<label for="pub-title" class="control-label sr-only">Title</label>
+							<input type="text" class="form-control" id="pub-title"
+								name="title" placeholder="Title*"
+								value="<?php if(isset($title))echo $title;?>" required>
+						</div>
+
+
+						<div class="form-group">
+							<label for="pub-type" class="control-label sr-only">Type</label>
+
+							<input type="number" class="form-control" id="pub-type"
+								name="type" placeholder="Type*" value="<?php echo $type;?>"
+								required>
+
+						</div>
+
+						<div class="form-group">
+							<label for="pub-year" class="control-label sr-only">Year</label>
+
+							<input type="number" class="form-control" id="pub-year"
+								name="year" placeholder="Year*" value="<?php echo $year;?>"
+								required>
+
+						</div>
+
+						<div class="form-group">
+							<label for="pub-month" class="control-label sr-only">Month</label>
+
+							<input type="number" class="form-control" id="pub-month"
+								name="month" placeholder="Month*" value="<?php echo $month;?>"
+								required>
+
+						</div>
+
+						<div class="form-group">
+							<label for="pub-pages" class="control-label sr-only">Pages</label>
+							<input type="text" class="form-control" id="pub-pages"
+								name="pages" placeholder="Pages*"
+								value="<?php if(isset($pages))echo $pages;?>" required>
+						</div>
+
+						<div class="form-group">
+							<label for="pub-publisher" class="control-label sr-only">Publisher</label>
+							<input type="text" class="form-control" id="pub-publisher"
+								name="publisher" placeholder="Publisher*"
+								value="<?php if(isset($publisher))echo $publisher;?>" required>
+						</div>
+
+						<div class="form-group">
+							<label for="pub-issue" class="control-label sr-only">Issue</label> 
+							<input type="number" class="form-control" id="pub-issue" name="issue"
+								placeholder="Issue*" required>
+						</div>
+
+						<div class="form-group">
+							<label for="pub-volume" class="control-label sr-only">Volume</label>
+
+							<input type="number" class="form-control" id="pub-volume"
+								name="volume" placeholder="Volume*"
+								required>
+
+						</div>
+
+						<div class="form-group">
+							<label for="pub-category" class="control-label sr-only">Category</label>
+
+							<input type="number" class="form-control" id="pub-category"
+								name="category" placeholder="Category*"
+								required>
+
+						</div>
+
+						<div class="form-group">
+							<label for="pub-indexing" class="control-label sr-only">Indexing</label>
+
+							<input type="number" class="form-control" id="pub-indexing"
+								name="indexing" placeholder="Indexing*"
+								required>
+						</div>
+
+						<div class="form-group">
+							<label for="pub-booktitle" class="control-label sr-only">Booktitle</label>
+							<input type="text" class="form-control" id="pub-booktitle"
+								name="booktitle" placeholder="Booktitle*"
+								value="<?php if(isset($booktitle))echo $booktitle;?>" required>
+						</div>
+
+						<div class="form-group">
+							<label for="pub-hlink" class="control-label sr-only">Hlink</label>
+							<input type="text" class="form-control" id="pub-hlink"
+								name="hlink" placeholder="Hlink*"
+								value="<?php if(isset($hlink))echo $hlink;?>" required>
+						</div>
+
+
+						<div class="form-group">
 								<div class="col-sm-12">
-									<button id="submit-button" type="submit" class="btn btn-primary"><i class="fa loading-icon"></i> <span>Submit Message</span></button>
+									<button id="submit-button" type="submit" class="btn btn-primary"><i class="fa loading-icon"></i> <span>Submit Publication</span></button>
 								</div>
 							</div>
 							
