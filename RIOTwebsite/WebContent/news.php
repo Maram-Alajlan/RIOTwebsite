@@ -38,7 +38,7 @@
 <div class="container">
 <h1 class="page-title pull-left">News</h1>
 <ol class="breadcrumb link-accent">
-<li><a href="index.html">Home</a></li>
+<li><a href="index.php">Home</a></li>
 
 <li class="active">Has Navigation Links</li>
 </ol>
