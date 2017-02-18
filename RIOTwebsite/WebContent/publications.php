@@ -10,6 +10,7 @@
 <!-- CORE CSS -->
 <?php
     include_once 'include/headers_links.php';
+    include_once 'include/utils.php';
     ?>
 </head>
 
@@ -46,8 +47,8 @@
 
 
 				<?php
-				$sql = "SELECT * FROM publication, publication_category, publication_indexing where publication.category = publication_category.id and publication.indexing = publication_indexing.id order by publication.year, publication.month";
-echo $sql;
+				$sql = "SELECT * FROM publication, publication_category, publication_indexing where publication.category = publication_category.id and publication.indexing = publication_indexing.id order by publication.year DESC, publication.month ASC";
+//echo $sql;
 
 				$result = $dbconn->query($sql);
 
@@ -63,18 +64,19 @@ echo $sql;
 						$result_authors = $dbconn->query($sql_authors);
 						$authors="";
 						while($row_author = $result_authors->fetch_assoc()){
-							$authors=$authors.''.$row_author["firstname"].','.$row_author["lastname"].', ';
+							$authors=$authors.''.$row_author["firstname"].' '.$row_author["lastname"].', ';
 						}
 
 
 						$link=$row["hlink"];
 						echo "<b><a href='".$link."'>".$row["title"]."</a></b>" ;
 						echo "<br>".$authors;
-						echo "<br><b>".$row["booktitle"]."</b>,".getMonth($row["month"])." ".$row["year"];
+						echo "<br><b>".$row["booktitle"]."</b>, Vol.(".$row["volume"]."), Issue (".$row["issue"]."), ".getMonth($row["month"])." ".$row["year"];
+						echo "<br><b class='indexing'>".$row['publisher']."</b>, <b class='indexing'>".getIndexing($row["indexing"])."</b>";
 						echo'</div>';
 					}
 				} else {
-					echo '<p class="error">Incorrect username and/or password. Please try again. </p><br>';
+					echo '<p class="error">SQL Query Error</p><br>';
 				}
 
 				?>

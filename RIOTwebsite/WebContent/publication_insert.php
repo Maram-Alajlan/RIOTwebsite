@@ -9,8 +9,9 @@
 <meta name="author" content="The Develovers">
 <!-- CORE CSS -->
 <?php
-    include_once 'include/headers_links.php';
-    ?>
+include_once 'include/headers_links.php';
+ob_start();
+?>
 </head>
 
 <body>
@@ -42,15 +43,21 @@
 			<div class="container">
 				<p></p>
 
-				
+
 
 
 				<?php
 				if (isset ( $_POST ['msg-submitted'] )) {
 					// Fetching variables of the form which travels in URL
-					$id = $_POST ['id'];
+					$number_of_authors =$_POST ['number_of_authors'];
+					//echo $number_of_authors."<br>";
+					$authors=array();
+					for ($i=1;$i<=$number_of_authors;$i++){
+						$authors[$i]=$_POST['author'.$i];
+						//echo $authors[$i]."<br>";
+					}
 					$title = $_POST ['title'];
-					$type = $_POST ['type'];
+					
 					$year = $_POST['year'];
 					$month = $_POST['month'];
 					$pages = $_POST['pages'];
@@ -61,23 +68,89 @@
 					$indexing = $_POST['indexing'];
 					$booktitle = $_POST['booktitle'];
 					$hlink = $_POST['hlink'];
-										
+
 				}
-				
-				$sql = "INSERT INTO publication (pid, title, type, year, month, pages, publisher, issue, volume, category, indexing, booktitle, hlink)
-				VALUES ('$id', '$title', '$type', '$year', '$month', '$pages', '$publisher', '$issue', '$volume', '$category', '$indexing', '$booktitle', '$hlink' )";
-				
-				
-				if ($dbconn->query($sql)){
-					echo "<br>";
-					echo "Your publication entered successfully!!";
-					echo "<br>";
-				}else {
-					echo "<br>";
-					echo "Error happened !!";
-					echo "<br>";
+
+				$sql_check_publication = "SELECT * FROM publication WHERE publication.title='".$title."'";
+				$result = $dbconn->query($sql_check_publication);
+				if ($result->num_rows > 0) {
+					echo "The publication already exists in the database. It will not be added";
+
+				}else{
+					$sql_publication = "INSERT INTO publication (title, year, month, pages, publisher, issue, volume, category, indexing, booktitle, hlink)
+				VALUES ('$title', '$year', '$month', '$pages', '$publisher', '$issue', '$volume', '$category', '$indexing', '$booktitle', '$hlink' )";
+
+					if ($dbconn->query($sql_publication)){
+						echo "<br>";
+						echo "Your publication entered successfully!!";
+						echo "<br>";
+					}else {
+						echo "<br>";
+						echo "Error happened !!";
+						echo "<br>";
+					}
+
+					//add authors to database
+					$authors_ids = array();
+					$k=1;
+					for ($i=1;$i<=$number_of_authors;$i++){
+						//check if authors already in database
+						$author = explode(" ", $authors[$i]);
+						$firstName = $author[0];
+						$lastName = $author[1];
+						$sql_author = "SELECT * FROM author WHERE author.firstname='".$firstName."' and author.lastname='".$lastName."'";
+						
+						$result_author = $dbconn->query($sql_author);
+						if ($result_author->num_rows == 0) {
+							echo $sql_author."<br>";
+							echo "author not found and will added in database"."<br>";
+							$insert_author_sql = "insert into author (firstname, lastname) values ('$firstName', '$lastName')";
+							echo $insert_author_sql."<br>";
+							$dbconn->query($insert_author_sql);
+							$sql_author = "SELECT * FROM author WHERE author.firstname='".$firstName."' and author.lastname='".$lastName."'";
+							$result_author = $dbconn->query($sql_author);
+							$row_authorid = $result_author->fetch_assoc();
+							$authors_ids[$k]=$row_authorid['aid'];
+							echo $row_authorid['aid']."<br>";
+							$k++;
+						}else{
+							echo "author is found"."<br>";
+							$row_authorid = $result_author->fetch_assoc();
+							$authors_ids[$k]=$row_authorid['aid'];
+							echo $row_authorid['aid']."<br>";
+							$k++;
+						}
+					}
+
+
+
+					//add author publication relation to database
+					$sql_check_publication = "SELECT * FROM publication WHERE publication.title='".$title."'";
+					$result_publication = $dbconn->query($sql_check_publication);
+					$row_publication = $result_publication->fetch_assoc();
+					$publication_id=$row_publication['pid'];
+					for ($j=1;$j<=$number_of_authors;$j++){
+						echo "insert author publication relation"."<br>";
+						$author_id=$authors_ids[$j];
+						$sql_publication_author ="INSERT INTO author_publication(author_id,publication_id) VALUES ($author_id,$publication_id)";
+						echo $sql_publication_author;
+						$dbconn->query($sql_publication_author);
+					}
+
+					//echo "<h3>Weclome " . $row["firstname"]. " " . $row["lastname"]."</h3><br>";
 				}
-				
+
+
+
+
+
+
+
+
+
+
+
+
 				echo "<br>";
 				echo "Your publication info:";
 				echo "<br>";
@@ -107,9 +180,13 @@
 				echo "<br>";
 				if(isset($hlink)) echo "The booktitle: ", $hlink;
 				echo "<br>";
-?>
+				
+				sleep(1);
+			header("location: publications.php");	
+				
+				?>
 
-					
+
 
 
 
