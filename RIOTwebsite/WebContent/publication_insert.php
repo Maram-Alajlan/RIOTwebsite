@@ -57,7 +57,7 @@ ob_start();
 						//echo $authors[$i]."<br>";
 					}
 					$title = $_POST ['title'];
-					
+					$impact_factor = $_POST['impactfactor'];
 					$year = $_POST['year'];
 					$month = $_POST['month'];
 					$pages = $_POST['pages'];
@@ -77,8 +77,8 @@ ob_start();
 					echo "The publication already exists in the database. It will not be added";
 
 				}else{
-					$sql_publication = "INSERT INTO publication (title, year, month, pages, publisher, issue, volume, category, indexing, booktitle, hlink)
-				VALUES ('$title', '$year', '$month', '$pages', '$publisher', '$issue', '$volume', '$category', '$indexing', '$booktitle', '$hlink' )";
+					$sql_publication = "INSERT INTO publication (title, impactfactor, year, month, pages, publisher, issue, volume, category, indexing, booktitle, hlink)
+				VALUES ('$title', '$impact_factor', '$year', '$month', '$pages', '$publisher', '$issue', '$volume', '$category', '$indexing', '$booktitle', '$hlink' )";
 
 					if ($dbconn->query($sql_publication)){
 						echo "<br>";

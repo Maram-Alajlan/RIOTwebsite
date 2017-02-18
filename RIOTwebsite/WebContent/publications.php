@@ -72,7 +72,7 @@
 						echo "<b><a href='".$link."'>".$row["title"]."</a></b>" ;
 						echo "<br>".$authors;
 						echo "<br><b>".$row["booktitle"]."</b>, Vol.(".$row["volume"]."), Issue (".$row["issue"]."), ".getMonth($row["month"])." ".$row["year"];
-						echo "<br><b class='indexing'>".$row['publisher']."</b>, <b class='indexing'>".getIndexing($row["indexing"])."</b>";
+						echo "<br><b class='indexing'>".$row['publisher']."</b>, <b class='indexing'>impact factor: ".$row['impactfactor']."</b>, <b class='indexing'>".getIndexing($row["indexing"])."</b>";
 						echo'</div>';
 					}
 				} else {

@@ -164,6 +164,13 @@ include_once 'include/headers_links.php';
 								name="volume" placeholder="Volume*" required>
 
 						</div>
+						
+						<div class="form-group">
+							<label for="pub-volume" class="control-label sr-only">Impact Factor</label>
+
+							<input type="text" class="form-control" id="impact_factor"
+								name="impactfactor" placeholder="Impact Factor"  required>
+						</div>
 
 						<div class="form-group">
 							<div class="input-group input-group-lg">
