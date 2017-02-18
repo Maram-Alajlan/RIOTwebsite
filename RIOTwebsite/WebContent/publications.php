@@ -43,7 +43,7 @@
 			<div class="container">
 				<p></p>
 
-				<h2 class="section-heading">Publications</h2>
+				
 
 
 				<?php
