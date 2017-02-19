@@ -256,20 +256,22 @@ outsourcing through an expanded array of functionalities.</p>
 											class="image-responsive center"> </a>
 									</div>
 									<div class="col-lg-12">
-										<p>Full-featured Robotics and Internet-of-Things Lab</p>
+										<p class="banner_news">Full-featured Robotics and Internet-of-Things Lab</p>
 									</div>
 								</div>
 
 								<div class="row">
 									<div class="col-lg-12">
-									<p>Drone Virtual RIOT Lab Visit</p>
-										
-											
-											<iframe width="420" height="315"
+									<p class="banner_news">Drone Virtual RIOT Lab Visit</p>
+									</div>	
+									</div>
+									<div class="row">
+											<div class="col-lg-8">
+											<iframe width="380" height="285"
 src="https://www.youtube.com/embed/gfl0bORdm3I?playlist=gfl0bORdm3Ik&loop=1">
 </iframe>
 											
-									</div>
+									</div><div class="col-lg-4"></div>
 								</div>
 
 
@@ -283,7 +285,7 @@ src="https://www.youtube.com/embed/gfl0bORdm3I?playlist=gfl0bORdm3Ik&loop=1">
 							<div class="text">
 								<h2 class="title">LATEST PUBLICATIONS</h2>
 
-								<div class="publication">
+								<div class="publication banner_news">
 									<b><a href='http://www.springer.com/us/book/9783319549262'>Robot
 											Operating System (ROS): The Complete Reference (Volume 2)</a>
 									</b><br>Anis Koubaa (Editor) <br> <b>Springer</b>, Volume 2,
@@ -291,7 +293,7 @@ src="https://www.youtube.com/embed/gfl0bORdm3I?playlist=gfl0bORdm3Ik&loop=1">
 										href='http://www.springer.com/us/book/9783319549262'><img
 										src="images/rosbook2.jpg" class="image-responsive center"> </a>
 								</div>
-								<div class="publication">
+								<div class="publication banner_news">
 									<b><a
 										href='http://www.sciencedirect.com/science/article/pii/S1389128616302699'>Cyber-physical
 											systems clouds: A survey</a> </b><br>Rihab Chaâri, Fatma
