@@ -8,34 +8,11 @@
 <meta name="description" content="Responsive Website Template">
 <meta name="author" content="The Develovers">
 <!-- CORE CSS -->
-<link href="theme/assets/css/bootstrap.css" rel="stylesheet"
-	type="text/css">
-<link href="theme/assets/css/font-awesome.min.css" rel="stylesheet"
-	type="text/css">
-<link href="theme/assets/css/elegant-icons.css" rel="stylesheet"
-	type="text/css">
-<!-- THEME CSS -->
-<link href="theme/assets/css/main.css" rel="stylesheet" type="text/css">
-<link href="theme/assets/css/my-custom-styles.css" rel="stylesheet"
-	type="text/css">
-
-<!-- GOOGLE FONTS -->
-<link
-	href='https://fonts.googleapis.com/css?family=Raleway:700,400,400italic,500'
-	rel='stylesheet' type='text/css'>
-<link
-	href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,300,300italic'
-	rel='stylesheet' type='text/css'>
-<!-- FAVICONS -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144"
-	href="theme/assets/ico/bravana144.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114"
-	href="theme/assets/ico/bravana114.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72"
-	href="theme/assets/ico/bravana72.png">
-<link rel="apple-touch-icon-precomposed"
-	href="theme/assets/ico/bravana57.png">
-<link rel="shortcut icon" href="theme/assets/ico/favicon.ico">
+<!-- CORE CSS -->
+<?php
+include_once 'include/headers_links.php';
+include_once 'include/utils.php';
+?>
 </head>
 
 <body>
@@ -62,26 +39,72 @@
 			<div class="container">
 				<p></p>
 
-				
+
+
+
+
+
+				<h2>RIOT Lab Facilities</h2>
+
+
+
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+						<li data-target="#myCarousel" data-slide-to="4"></li>
+						<li data-target="#myCarousel" data-slide-to="5"></li>
+						<li data-target="#myCarousel" data-slide-to="6"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="images/lab05.jpg" alt="Los Angeles">
+						</div>
+
+						<div class="item">
+							<img src="images/lab/3drsolo.jpg" alt="New York">
+						</div>
+						
+						<div class="item">
+							<img src="images/lab/rpi.jpg" alt="New York">
+						</div>
+						<div class="item">
+							<img src="images/lab/bebop.jpg" alt="New York">
+						</div>
+						<div class="item">
+							<img src="images/lab/cluster.jpg" alt="New York">
+						</div>
+						<div class="item">
+							<img src="images/lab/cluster2.jpg" alt="New York">
+						</div>
+						
+						<div class="item">
+							<img src="images/lab/drones.jpg" alt="Chicago">
+						</div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel"
+						data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span>
+						<span class="sr-only">Previous</span>
+					</a> <a class="right carousel-control" href="#myCarousel"
+						data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+
 
 				<h2>Drone Virtual RIOT Lab Visit</h2>
 
 
-				<iframe width="420" height="315"
+				<iframe width="800" height="600"
 					src="https://www.youtube.com/embed/gfl0bORdm3I?playlist=gfl0bORdm3Ik&loop=1">
 				</iframe>
-
-
-				<h2>RIOT Lab Facilities
-				</h2>
-
-
-				<a href='#'><img src="images/lab04.jpg" width="70%"
-					class="image-responsive center"> </a> 
-					<br><br><br>
-					<a href='#'><img
-					src="images/lab05.jpg" width="70%" class="image-responsive center">
-				</a>
 
 
 			</div>

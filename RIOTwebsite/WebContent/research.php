@@ -8,9 +8,11 @@
 <meta name="description" content="Responsive Website Template">
 <meta name="author" content="The Develovers">
 <!-- CORE CSS -->
+<!-- CORE CSS -->
 <?php
-include_once 'include/headers_links.php';
-?>
+    include_once 'include/headers_links.php';
+    include_once 'include/utils.php';
+    ?>
 </head>
 
 <body>

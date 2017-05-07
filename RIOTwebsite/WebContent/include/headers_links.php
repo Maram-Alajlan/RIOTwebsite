@@ -18,6 +18,7 @@
 	type="text/css">
 
 <!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Abel|Asap|Open+Sans" rel="stylesheet">
 <link
 	href='https://fonts.googleapis.com/css?family=Raleway:700,400,400italic,500'
 	rel='stylesheet' type='text/css'>

@@ -92,7 +92,7 @@ include_once 'include/headers_links.php';
 							class="btn btn-primary btn-lg"><i class="fa fa-shopping-cart"></i>
 							PURCHASE</a>
 					</div></li>
-				
+
 			</ul>
 		</section>
 		<!-- END SLIDER -->
@@ -207,24 +207,20 @@ outsourcing through an expanded array of functionalities.</p>
 							<i class="icon icon_book_alt ico-styled-md text-primary"></i>
 							<div class="text">
 								<h2 class="title">LATEST PUBLICATIONS</h2>
-
+								<div class="publication banner_news">
+									<b><a href='#'>RoadSense: Smartphone Application to Estimate
+											Road Conditions using Accelerometer and Gyroscope</a> </b> <br>Azza
+									Chlif, Anis Koubaa, Tarek Abbes, Adel Ammar <br> <b>IEEE
+										Sensors</b>, accepted May 2017
+								</div>
 								<div class="publication banner_news">
 									<b><a href='http://www.springer.com/us/book/9783319549262'>Robot
 											Operating System (ROS): The Complete Reference (Volume 2)</a>
 									</b><br>Anis Koubaa (Editor) <br> <b>Springer</b>, Volume 2,
 									707 Pages, ISBN 978-3-319-54926-2, 2017 <a
-										href='http://www.springer.com/us/book/9783319549262'><img
-										src="images/rosbook2.jpg" class="image-responsive center"> </a>
+										href='http://www.springer.com/us/book/9783319549262'> </a>
 								</div>
-								<div class="publication banner_news">
-									<b><a
-										href='http://www.sciencedirect.com/science/article/pii/S1389128616302699'>Cyber-physical
-											systems clouds: A survey</a> </b><br>Rihab Chaâri, Fatma
-									Ellouze, Anis Koubâa, Basit Qureshi, Nuno Pereira, Habib
-									Youssef, Eduardo Tovar <br> <b>Computer Networks</b>, Volume
-									108, 24 October 2016, Pages 260-278, ISSN 1389-1286,
-									(Netherlands)
-								</div>
+
 
 							</div>
 						</div>
@@ -301,7 +297,31 @@ outsourcing through an expanded array of functionalities.</p>
 							</div>
 						</div>
 					</div>
+					<div class="col-md-6">
+						<div class="icon-info icon-info-left">
+							<i class="icon icon_gift ico-styled-md text-primary"></i>
+							<div class="text">
+								<h2 class="title">NEWSLETTER, APRIL 2017</h2>
+
+
+
+								<div class="row">
+									<div class="col-lg-8">
+										<a href='resources/newsletter1.pdf'><img
+											src="images/newsletter1.png" width="60%"
+											class="image-responsive center"> </a>
+
+									</div>
+									<div class="col-lg-4"></div>
+								</div>
+
+
+
+							</div>
+						</div>
+					</div>
 				</div>
+
 
 			</div>
 		</section>

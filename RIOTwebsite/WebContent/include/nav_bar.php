@@ -106,6 +106,8 @@
 
 						<li class="dropdown "><a href="collaboration.php" class="dropdown-toggle"
 							data-toggle="dropdown">COLLABORATION </a></li>
+							<li class="dropdown "><a href="http://wiki.coins-lab.org"
+					class="dropdown-toggle" data-toggle="dropdown">WIKI </a></li>
 
 						
 

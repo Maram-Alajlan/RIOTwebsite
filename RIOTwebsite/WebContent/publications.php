@@ -147,7 +147,7 @@
 						$link=$row["hlink"];
 						echo "<b><a href='".$link."'>".$row["title"]."</a></b>" ;
 						echo "<br>".$authors;
-						echo "<br><i class='gold'>".$row["booktitle"]."</i>,".getMonth($row["month"])." <b>".$row["year"]."</b>";
+						echo "<br><i class='gold'>".$row["booktitle"]."</i>, ".getMonth($row["month"])." <b>".$row["year"]."</b>";
 						echo "<br><b class='indexing'>".$row['publisher']."</b>";
 						echo'</div>';
 					}
