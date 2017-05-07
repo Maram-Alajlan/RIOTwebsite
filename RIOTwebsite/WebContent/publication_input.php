@@ -73,7 +73,7 @@ include_once 'include/headers_links.php';
 							<input type="text" class="form-control" id="pub-author"
 								name="author1" placeholder="Author name*" required>
 						</div>
-						
+
 						<div class="form-group" id="authors-add">
 							<button id="f_add">+ Another author</button>
 
@@ -124,7 +124,7 @@ include_once 'include/headers_links.php';
 
 
 
-						
+
 
 
 
@@ -144,7 +144,7 @@ include_once 'include/headers_links.php';
 								</select>
 							</div>
 						</div>
-						
+
 						<div class="form-group">
 							<label for="pub-pages" class="control-label sr-only">Pages</label>
 							<input type="text" class="form-control" id="pub-pages"
@@ -164,12 +164,12 @@ include_once 'include/headers_links.php';
 								name="volume" placeholder="Volume*" required>
 
 						</div>
-						
-						<div class="form-group">
-							<label for="pub-volume" class="control-label sr-only">Impact Factor</label>
 
-							<input type="text" class="form-control" id="impact_factor"
-								name="impactfactor" placeholder="Impact Factor"  required>
+						<div class="form-group">
+							<label for="pub-volume" class="control-label sr-only">Impact
+								Factor</label> <input type="text" class="form-control"
+								id="impact_factor" name="impactfactor"
+								placeholder="Impact Factor" required>
 						</div>
 
 						<div class="form-group">
