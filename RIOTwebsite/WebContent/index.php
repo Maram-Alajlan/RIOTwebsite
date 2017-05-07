@@ -230,6 +230,16 @@ outsourcing through an expanded array of functionalities.</p>
 							<i class="icon icon_lightbulb ico-styled-md text-primary"></i>
 							<div class="text">
 								<h2 class="title">LATEST NEWS</h2>
+								
+								<div class="row">
+
+									
+									<div class="col-lg-12 banner_news">
+										<p><a href='rosbook/index.php'>Call for Chapters</a> Springer Book on Robot Operating System (ROS) - (Volume 3)</p>
+										<br>
+									</div>
+
+								</div>
 								<div class="row">
 
 									<div class="col-lg-3">
