@@ -8,57 +8,59 @@
 <meta name="description" content="Responsive Website Template">
 <meta name="author" content="The Develovers">
 <!-- CORE CSS -->
-<link href="theme/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="theme/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href="theme/assets/css/elegant-icons.css" rel="stylesheet" type="text/css">
-<!-- THEME CSS -->
-<link href="theme/assets/css/main.css" rel="stylesheet" type="text/css">
-<link href="theme/assets/css/my-custom-styles.css" rel="stylesheet" type="text/css">
-
-<!-- GOOGLE FONTS -->
-<link href='https://fonts.googleapis.com/css?family=Raleway:700,400,400italic,500' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,300,300italic' rel='stylesheet' type='text/css'>
-<!-- FAVICONS -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="theme/assets/ico/bravana144.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="theme/assets/ico/bravana114.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="theme/assets/ico/bravana72.png">
-<link rel="apple-touch-icon-precomposed" href="theme/assets/ico/bravana57.png">
-<link rel="shortcut icon" href="theme/assets/ico/favicon.ico">
+<?php
+include_once 'include/headers_links.php';
+?>
 </head>
 
 <body>
-<!-- WRAPPER -->
-<div id="wrapper">
-<?php include_once 'include/nav_bar.php';?>
+	<!-- WRAPPER -->
+	<div id="wrapper">
+	<?php include_once 'include/nav_bar.php';?>
 
-<!-- PAGE HEADER DEFAULT -->
-<div class="page-header">
-<div class="container">
-<h1 class="page-title pull-left">Research</h1>
-<ol class="breadcrumb link-accent">
-<li><a href="index.php">Home</a></li>
+		<!-- PAGE HEADER DEFAULT -->
+		<div class="page-header">
+			<div class="container">
+				<h1 class="page-title pull-left">Research</h1>
+				<ol class="breadcrumb link-accent">
+					<li><a href="index.php">Home</a></li>
 
-<li class="active">Has Navigation Links</li>
-</ol>
-</div>
-</div>
-<!-- END PAGE HEADER DEFAULT -->
-<!-- PAGE CONTENT -->
-<div class="page-content no-margin-bottom">
-<div class="container">
-<p>  </p>
+					<li class="active">Has Navigation Links</li>
+				</ol>
+			</div>
+		</div>
+		<!-- END PAGE HEADER DEFAULT -->
+		<!-- PAGE CONTENT -->
+		<div class="page-content no-margin-bottom">
+			<div class="container">
+				<p></p>
 
-<h2 class="section-heading">RESEARCH AREA</h2>
+				<h2 class="section-heading">RESEARCH AREAS</h2>
 
-<ul>
-<li> AREA 1 </li>
-<li> AREA 2 </li>
+				<div class="paragraph_large">
+					The Robotics and Internet-of-Things research units focuses on the
+					integration of robots into the Internet of Things to promote new
+					types of applications that leverage the use of these two
+					technologies. RIOT has a long expertise in developing solutions for
+					Internet-of-Things and Mobile Robots. The unit also fosters its
+					activites to be aligned with national priorities in particular the
+					2020 National Transformation Plan and 2030 Vision. In particular,
+					with a strategic vision for the future, RIOT is working in emerging
+					topics such as:
 
-</ul>
+<br><br>
 
+					<ul>
+						<li>Software Engineering for Cloud Robotics</li>
+						<li>Integration of Robots into the Internet-of-Things</li>
+						<li>Communication and Networking for the Internet-of-Things</li>
+						<li>AI Algorithms for Planning in Robotics</li>
+						<li>Design of Unmanned Aerial Vehicles and their applications</li>
+					</ul>
+				</div>
 
-</div>
-<!--
+			</div>
+			<!--
 <div class="cta cta-solid-bg cta-2-columns margin-top-50">
 <div class="container">
 <h2 class="heading">An elegant Bootstrap theme with tons of features</h2>
@@ -66,23 +68,23 @@
 </div>
 </div>
 -->
-</div>
-<!-- END PAGE CONTENT -->
-<!-- FOOTER -->
-<?php
-    include_once 'include/footer.php';
-    ?>
-<!-- END FOOTER -->
-<div class="back-to-top">
-<a href="#top"><i class="fa fa-chevron-up"></i></a>
-</div>
-</div>
-<!-- END WRAPPER -->
-<!-- JAVASCRIPT -->
-<script src="theme/assets/js/jquery-2.1.1.min.js"></script>
-<script src="theme/assets/js/bootstrap.min.js"></script>
-<script src="theme/assets/js/plugins/easing/jquery.easing.min.js"></script>
-<script src="theme/assets/js/bravana.js"></script>
+		</div>
+		<!-- END PAGE CONTENT -->
+		<!-- FOOTER -->
+		<?php
+		include_once 'include/footer.php';
+		?>
+		<!-- END FOOTER -->
+		<div class="back-to-top">
+			<a href="#top"><i class="fa fa-chevron-up"></i> </a>
+		</div>
+	</div>
+	<!-- END WRAPPER -->
+	<!-- JAVASCRIPT -->
+	<script src="theme/assets/js/jquery-2.1.1.min.js"></script>
+	<script src="theme/assets/js/bootstrap.min.js"></script>
+	<script src="theme/assets/js/plugins/easing/jquery.easing.min.js"></script>
+	<script src="theme/assets/js/bravana.js"></script>
 
 </body>
 

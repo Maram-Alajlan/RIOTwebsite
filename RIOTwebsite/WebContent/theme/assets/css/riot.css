@@ -1,6 +1,7 @@
 .paragraph_large {
-    font-size: 1.1em;
+    font-size: 0.9em;
     line-height: 160%;
+    color: black;
 }
 
 .keywords {
@@ -13,10 +14,30 @@
 
 .publication{
 	
-	background-color: #fcfbfa;
-	margin: 10px 10px 10px 10px;
-	padding: 20px 10px 20px 10px;
-	
+	background-color: #ffffff;
+	margin: 10px;
+	padding: 10px;
+	font-size: 0.9em;
+	border-style:  none none none solid;
+	border-color: #708090;
+}
+
+.publication a{
+   color: #708090;
+}
+
+.forest_green{
+	color: #228B22;
+}
+
+.stale_gray{
+	color: #708090;
+}
+
+
+
+.gold{
+	color: #DAA520;
 }
 
 img.center {

@@ -50,11 +50,17 @@
 <div class="container">
 <p>  </p>
 
-<h2 class="section-heading">News</h2>
-
-
-
-
+<h2 class="section-heading">Collaboration</h2>
+<div class="row">
+<div class="col-lg-6">
+<a href='http://www.gaitech.hk'><img src="images/gaitech.png" width="70%"
+					class="image-responsive center"> </a>
+</div>
+<div class="col-lg-6">
+<a href='https://www.cister.isep.ipp.pt/'><img src="images/cister.jpg" width="30%"
+					class="image-responsive center"> </a>
+</div>
+</div>
 </div>
 <!--
 <div class="cta cta-solid-bg cta-2-columns margin-top-50">

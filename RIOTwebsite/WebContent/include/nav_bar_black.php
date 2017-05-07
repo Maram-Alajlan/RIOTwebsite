@@ -40,7 +40,9 @@
 					<span class="sr-only">Toggle Navigation</span> <i
 						class="fa fa-bars"></i>
 				</button>
-				<a href="index.php" class="navbar-brand"> # </a>
+				<a href="index.php" class="navbar-brand"> <img
+					src="images/psulogo.png" alt="Bravana Logo">
+				</a>
 				<ul class="nav navbar-nav secondary-navbar-nav">
 					<li class="dropdown dropdown-cart"><a href="#"
 						class="as-icon disabled dropdown-toggle" data-toggle="dropdown"><i
@@ -89,71 +91,33 @@
 						<li class="dropdown "><a href="research.php"
 							class="dropdown-toggle" data-toggle="dropdown">RESEARCH <i
 								class="fa fa-angle-down"></i></a>
-							<ul class="dropdown-menu" role="menu">
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">AREA 1</a></li>
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">AREA 2 </a></li>
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">AREA 3 </a></li>
-
-
-							</ul></li>
+							</li>
 						<li class="dropdown "><a href="people.php"
 							class="dropdown-toggle" data-toggle="dropdown">PEOPLE <i
 								class="fa fa-angle-down"></i></a>
-							<ul class="dropdown-menu" role="menu">
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">Faculity</a></li>
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">Postdoctoral Fellows </a></li>
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">Research Scientists </a></li>
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">Research Staff </a></li>
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">PhD Students </a></li>
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">Master Students</a></li>
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">Administrative Staff </a></li>
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">Alumni </a></li>
-							</ul></li>
+							</li>
 
 						<li class="dropdown "><a href="facilities.php"
 							class="dropdown-toggle" data-toggle="dropdown">FACILITIES <i
 								class="fa fa-angle-down"></i></a>
 							<ul class="dropdown-menu" role="menu">
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">FACILITY 1</a></li>
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">FACILITY 2 </a></li>
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">FACILITY 3 </a></li>
-
+								<li class="dropdown "><a href="facilities.php" class="dropdown-toggle"
+									data-toggle="dropdown">LAB FACILITIES</a></li>
 
 							</ul></li>
 
 						<li class="dropdown "><a href="publications.php"
 							class="dropdown-toggle" data-toggle="dropdown">PUBLICATIONS <i
 								class="fa fa-angle-down"></i></a>
-							<ul class="dropdown-menu" role="menu">
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">2017</a></li>
-								<li class="dropdown "><a href="#" class="dropdown-toggle"
-									data-toggle="dropdown">2016 </a></li>
-
-							</ul></li>
+							</li>
 
 						<li class="dropdown "><a href="events.php"
 							class="dropdown-toggle" data-toggle="dropdown">EVENTS</a></li>
 
-						<li class="dropdown "><a href="news.php"
-							class="dropdown-toggle" data-toggle="dropdown">NEWS </a></li>
+						<li class="dropdown "><a href="collaboration.php" class="dropdown-toggle"
+							data-toggle="dropdown">COLLABORATION </a></li>
 
-						<li class="dropdown "><a href="joinus.php"
-							class="dropdown-toggle" data-toggle="dropdown">JOIN US</a></li>
+						
 
 
 					</ul>

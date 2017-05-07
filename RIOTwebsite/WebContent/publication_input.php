@@ -18,7 +18,7 @@ include_once 'include/headers_links.php';
 	<div id="wrapper">
 	<?php
 	include 'include/dbconfig.php';
-	session_start();
+	//session_start();
 	?>
 
 	<?php

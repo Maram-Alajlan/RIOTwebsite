@@ -38,7 +38,7 @@
 						class="fa fa-bars"></i>
 				</button>
 				<a href="index.php" class="navbar-brand"> <img
-					src="theme/assets/img/logo/logo_psu.jpg" alt="Bravana Logo">
+					src="images/psulogo.png" alt="Bravana Logo">
 				</a>
 				<ul class="nav navbar-nav secondary-navbar-nav">
 					<li class="dropdown dropdown-cart"><a href="#"
@@ -104,8 +104,8 @@
 						<li class="dropdown "><a href="events.php" class="dropdown-toggle"
 							data-toggle="dropdown">EVENTS</a></li>
 
-						<li class="dropdown "><a href="news.php" class="dropdown-toggle"
-							data-toggle="dropdown">NEWS </a></li>
+						<li class="dropdown "><a href="collaboration.php" class="dropdown-toggle"
+							data-toggle="dropdown">COLLABORATION </a></li>
 
 						
 

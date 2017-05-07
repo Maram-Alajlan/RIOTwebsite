@@ -19,7 +19,7 @@
 	<div id="wrapper">
 	<?php
 	include 'include/dbconfig.php';
-	session_start();
+	//session_start();
 	?>
 
 	<?php
@@ -43,15 +43,54 @@
 			<div class="container">
 				<p></p>
 
-				
 
+<br><br>
+<h3 class='stale_gray'>Books</h3>
 
 				<?php
-				$sql = "SELECT * FROM publication, publication_category, publication_indexing where publication.category = publication_category.id and publication.indexing = publication_indexing.id order by publication.year DESC, publication.month ASC";
+				$sql = "SELECT * FROM publication, publication_category, publication_indexing where publication.category= 3 and publication.category = publication_category.id and publication.indexing = publication_indexing.id order by publication.year DESC, publication.month ASC";
 //echo $sql;
 
 				$result = $dbconn->query($sql);
+//echo $result->num_rows;
+				if ($result->num_rows >= 1) {
+					// output data of each row
+					while($row = $result->fetch_assoc()) {
+						echo'<div class="publication ">';
+						
+						$sql_authors = "SELECT firstname, lastname FROM author,publication,author_publication
+						WHERE author.aid=author_publication.author_id 
+						and publication.pid=author_publication.publication_id and publication.pid=".$row['pid'];
+						//echo $sql_authors;
+						$result_authors = $dbconn->query($sql_authors);
+						$authors="";
+						while($row_author = $result_authors->fetch_assoc()){
+							$authors=$authors.''.$row_author["firstname"].' '.$row_author["lastname"].', ';
+						}
 
+
+						$link=$row["hlink"];
+						echo "<b><a href='".$link."'>".$row["title"]."</a></b>" ;
+						echo "<br>".$authors;
+						echo "<br><i class='gold'>".$row["booktitle"]."</i>,".getMonth($row["month"])." <b>".$row["year"]."</b>";
+						echo "<br><b class='indexing'>".$row['publisher']."</b>";
+						echo'</div>';
+					}
+				} else {
+					echo '<p class="error">SQL Query Error</p><br>';
+				}
+
+				?>
+
+<br><br>			
+<h3 class='stale_gray'>Journals</h3>
+
+				<?php
+				$sql = "SELECT * FROM publication, publication_category, publication_indexing where publication.category= 1 and publication.category = publication_category.id and publication.indexing = publication_indexing.id order by publication.year DESC, publication.month ASC";
+//echo $sql;
+
+				$result = $dbconn->query($sql);
+//echo $result->num_rows;
 				if ($result->num_rows >= 1) {
 					// output data of each row
 					while($row = $result->fetch_assoc()) {
@@ -71,8 +110,83 @@
 						$link=$row["hlink"];
 						echo "<b><a href='".$link."'>".$row["title"]."</a></b>" ;
 						echo "<br>".$authors;
-						echo "<br><b>".$row["booktitle"]."</b>, Vol.(".$row["volume"]."), Issue (".$row["issue"]."), ".getMonth($row["month"])." ".$row["year"];
+						echo "<br><i class='gold'>".$row["booktitle"]."</i>, Vol.(".$row["volume"]."), Issue (".$row["issue"]."), ".getMonth($row["month"])." <b>".$row["year"]."</b>";
 						echo "<br><b class='indexing'>".$row['publisher']."</b>, <b class='indexing'>impact factor: ".$row['impactfactor']."</b>, <b class='indexing'>".getIndexing($row["indexing"])."</b>";
+						echo'</div>';
+					}
+				} else {
+					echo '<p class="error">SQL Query Error</p><br>';
+				}
+
+				?>
+<br><br>
+<h3 class='stale_gray'>Conferences</h3>
+
+				<?php
+				$sql = "SELECT * FROM publication, publication_category, publication_indexing where publication.category= 2 and publication.category = publication_category.id and publication.indexing = publication_indexing.id order by publication.year DESC, publication.month ASC";
+//echo $sql;
+
+				$result = $dbconn->query($sql);
+//echo $result->num_rows;
+				if ($result->num_rows >= 1) {
+					// output data of each row
+					while($row = $result->fetch_assoc()) {
+						echo'<div class="publication ">';
+						
+						$sql_authors = "SELECT firstname, lastname FROM author,publication,author_publication
+						WHERE author.aid=author_publication.author_id 
+						and publication.pid=author_publication.publication_id and publication.pid=".$row['pid'];
+						//echo $sql_authors;
+						$result_authors = $dbconn->query($sql_authors);
+						$authors="";
+						while($row_author = $result_authors->fetch_assoc()){
+							$authors=$authors.''.$row_author["firstname"].' '.$row_author["lastname"].', ';
+						}
+
+
+						$link=$row["hlink"];
+						echo "<b><a href='".$link."'>".$row["title"]."</a></b>" ;
+						echo "<br>".$authors;
+						echo "<br><i class='gold'>".$row["booktitle"]."</i>,".getMonth($row["month"])." <b>".$row["year"]."</b>";
+						echo "<br><b class='indexing'>".$row['publisher']."</b>";
+						echo'</div>';
+					}
+				} else {
+					echo '<p class="error">SQL Query Error</p><br>';
+				}
+
+				?>
+
+<br><br>
+<h3 class='stale_gray'>Book Chapters</h3>
+
+				<?php
+				$sql = "SELECT * FROM publication, publication_category, publication_indexing where publication.category= 4 and publication.category = publication_category.id and publication.indexing = publication_indexing.id order by publication.year DESC, publication.month ASC";
+//echo $sql;
+
+				$result = $dbconn->query($sql);
+//echo $result->num_rows;
+				if ($result->num_rows >= 1) {
+					// output data of each row
+					while($row = $result->fetch_assoc()) {
+						echo'<div class="publication ">';
+						
+						$sql_authors = "SELECT firstname, lastname FROM author,publication,author_publication
+						WHERE author.aid=author_publication.author_id 
+						and publication.pid=author_publication.publication_id and publication.pid=".$row['pid'];
+						//echo $sql_authors;
+						$result_authors = $dbconn->query($sql_authors);
+						$authors="";
+						while($row_author = $result_authors->fetch_assoc()){
+							$authors=$authors.''.$row_author["firstname"].' '.$row_author["lastname"].', ';
+						}
+
+
+						$link=$row["hlink"];
+						echo "<b><a href='".$link."'>".$row["title"]."</a></b>" ;
+						echo "<br>".$authors;
+						echo "<br><i class='gold'>".$row["booktitle"]."</i>,".getMonth($row["month"])." <b>".$row["year"]."</b>";
+						echo "<br><b class='indexing'>".$row['publisher']."</b>";
 						echo'</div>';
 					}
 				} else {
