@@ -18,7 +18,7 @@ include_once 'headers_links.php';
 	<div id="wrapper">
 		<!-- NAVBAR -->
 	<?php
-	include_once '../include/nav_bar.php';
+	include_once 'include/nav_bar.php';
 	?>
 		<!-- END NAVBAR -->
 		<!-- BREADCRUMBS -->
