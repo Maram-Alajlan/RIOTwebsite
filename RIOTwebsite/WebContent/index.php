@@ -206,7 +206,7 @@ outsourcing through an expanded array of functionalities.</p>
 						<div class="icon-info icon-info-left">
 							<i class="icon icon_book_alt ico-styled-md text-primary"></i>
 							<div class="text">
-								<h2 class="title">LATEST PUBLICATIONS</h2>
+								<h2 class="title museosans">LATEST PUBLICATIONS</h2>
 								<div class="publication banner_news">
 									<b><a href='#'>RoadSense: Smartphone Application to Estimate
 											Road Conditions using Accelerometer and Gyroscope</a> </b> <br>Azza

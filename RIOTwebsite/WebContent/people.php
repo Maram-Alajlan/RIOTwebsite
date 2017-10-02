@@ -72,7 +72,7 @@
 								<div class="team-member">
 									<!--  <img src="images/researcher.png"  width ="20%" class="img-responsive" alt="Person">  -->
 									<div class="member-info">
-										<h3 class="name">Prof. Anis Koubaa</h3>
+										<h3 class="name"><a href="akoubaa/index.php">Prof. Anis Koubaa</a></h3>
 										<span class="title">Director</span>
 										<p class="short-bio keywords">Robotic Software Engineering,
 											Internet-of-Things, Wireless Sensor Networks, Cloud Robotics,
