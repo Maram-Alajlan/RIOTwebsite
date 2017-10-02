@@ -86,7 +86,7 @@ include_once 'headers_links.php';
 									<div class="col-xs-2 col-md-2 col-sm-2 col-lg-2">
 										<ul class="list-inline social-icons">
 											<li><a
-												href="https://scholar.google.com/citations?user=aEoY-0IAAAAJ&hl=en"
+												href="http://dblp.uni-trier.de/pers/hd/k/Koubaa:Anis.html"
 												class="google-plus-bg"><i class="ai ai-dblp-square ai-4x"></i>
 											</a>
 											</li>
