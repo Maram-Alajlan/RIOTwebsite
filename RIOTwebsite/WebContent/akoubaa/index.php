@@ -120,6 +120,16 @@ include_once 'headers_links.php';
 								Director of Robotics and Internet of Things Lab at Prince Sultan
 								University.</p>
 						</div>
+						<div class="section">
+							<h3>Recent Book</h3>
+							<p><span class="badge">Springer</span><small> <strong>Robot Operating System (ROS) The Complete Reference (Volume 2)</strong></small></p>
+							<div class="row">
+							<div class="col-xs-4 col-md-4 col-sm-4 col-lg-4">
+							<a href="http://www.springer.com/gp/book/9783319549262" ><img src="assets/images/books/rosv2.jpg" alt="rosv2" width="100%"></a>
+							</div>
+							<div class="col-xs-8 col-md-8 col-sm-8 col-lg-8"><span style="line-height: 90%;"><small> Consists of three types of chapters: tutorials, cases studies, and research papers, it provides comprehensive additional material on ROS and the aspects of developing robotics systems, algorithms, frameworks, and applications with ROS.</small></div>
+							</div>
+						</div>
 						
 						
 					</div>
