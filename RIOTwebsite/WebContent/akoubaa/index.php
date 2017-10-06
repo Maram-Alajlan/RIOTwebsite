@@ -118,7 +118,7 @@ include_once 'headers_links.php';
 								and Senior Researcher at CISTER/INESC-TEC research group in
 								Portugal. He is the Chair of ACM Chapter in Saudi Arabia and
 								Director of Robotics and Internet of Things Lab at Prince Sultan
-								University.</p>
+								University.</p> 
 						</div>
 						<div class="section">
 							<h3>Recent Book</h3>
